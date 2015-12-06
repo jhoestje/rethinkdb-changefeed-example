@@ -95,7 +95,6 @@ module.exports.saveRegisteredUser = function (user, callback) {
       }
       console.log(JSON.stringify(result, null, 2));
     });
-    connection.close();
   })
 };
 
@@ -114,6 +113,5 @@ module.exports.saveMessage = function (msg, callback) {
       }
       console.log(JSON.stringify(result, null, 2));
     });
-    connection.close();
   })
 };
