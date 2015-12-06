@@ -4,7 +4,7 @@ Run the following commands to start:
 3.  Open two separate browsers windows and browse to: http://localhost:3000
 
 
-
+```
 //a few RethinkDB commands available from the Node command line:
 var r = require('rethinkdb');
 
@@ -27,3 +27,4 @@ r.dbList().run( connection, function(err, result) {
   if (err) throw err;
   util.log(result);
 });
+```
