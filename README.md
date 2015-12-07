@@ -5,6 +5,8 @@ Through the app, a user can register a user name or save a message in the Rethin
 
 The supporting blog is located at [keyholesoftware.com].
 
+NPM and NODE.jS is required before setting up and running the application.
+
 Frameworks used:
 <ul>
   <li>RethinkDB as the database</li>
